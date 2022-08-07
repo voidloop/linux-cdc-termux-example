@@ -1,0 +1,12 @@
+linux-cdc-termux-example
+
+I updated this example to read data from a Raspberry Pi Pico
+connected via USB to my Android phone (on Termux).
+
+https://wiki.termux.com/wiki/Termux-usb
+https://github.com/tytouf/libusb-cdc-example
+
+# make
+# termux-usb -l 
+# termux-usb -r /dev/bus/usb/001/002
+# termux-usb -e ./usbtest /dev/bus/usb/001/002
